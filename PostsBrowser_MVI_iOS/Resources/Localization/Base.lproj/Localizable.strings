@@ -1,0 +1,14 @@
+
+"Title_PostListView" = "Swinject MVVM Sample";
+"Title_PostDetailsView" = "Post Details";
+"Lbl_UserId" = "User Id:";
+"Lbl_FetchingPosts" = "Fetching Posts";
+"BtnTitle_OK" = "OK";
+
+"Error_NoPosts" = "There are no posts matching the filter.\nPlease try a different combination";
+"Error_NoNetwork" = "There was a network error.\nPull down to refresh";
+
+"AlertTitle_Attention" = "Attention!";
+"AlertDesc_Generic" = "Some error occurred.\nPlease try again.";
+"AlertTitle_NetworkError" = "Network Error!";
+"AlertDesc_NetworkError" = "Active Internet connection was not found.\n Please check your connection and try again.";

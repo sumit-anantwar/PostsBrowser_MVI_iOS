@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PostListCell" customModule="WevatTechTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="89"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Eq-xz-eeU">
+                    <rect key="frame" x="46" y="8" width="392" height="38"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Id:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cne-lw-gNa">
+                    <rect key="frame" x="46" y="46" width="80" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="cuy-OV-WXA"/>
+                        <constraint firstAttribute="width" constant="80" id="vfR-7h-a1b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nez-X8-vzh">
+                    <rect key="frame" x="126" y="46" width="312" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="tEF-t1-NbI"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHv-NY-vXe" customClass="RoundedLabel" customModule="WevatTechTest" customModuleProvider="target">
+                    <rect key="frame" x="8" y="8" width="30" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.41568627450000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rHv-NY-vXe" secondAttribute="height" multiplier="1:1" id="9SW-yy-6pL"/>
+                        <constraint firstAttribute="height" constant="30" id="lgD-gD-HBb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cne-lw-gNa" firstAttribute="top" secondItem="9Eq-xz-eeU" secondAttribute="bottom" id="6HX-Tu-yQ4"/>
+                <constraint firstItem="nez-X8-vzh" firstAttribute="height" secondItem="cne-lw-gNa" secondAttribute="height" id="8tc-hP-kTr"/>
+                <constraint firstItem="nez-X8-vzh" firstAttribute="top" secondItem="9Eq-xz-eeU" secondAttribute="bottom" id="IRN-de-mWC"/>
+                <constraint firstItem="cne-lw-gNa" firstAttribute="leading" secondItem="9Eq-xz-eeU" secondAttribute="leading" id="LmX-Rl-7qY"/>
+                <constraint firstItem="9Eq-xz-eeU" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailingMargin" id="QYI-qm-8os"/>
+                <constraint firstItem="rHv-NY-vXe" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="Wr6-Ir-plL"/>
+                <constraint firstItem="rHv-NY-vXe" firstAttribute="top" secondItem="9Eq-xz-eeU" secondAttribute="top" id="YoC-z6-eri"/>
+                <constraint firstItem="nez-X8-vzh" firstAttribute="trailing" secondItem="9Eq-xz-eeU" secondAttribute="trailing" id="dHr-TT-Egw"/>
+                <constraint firstItem="nez-X8-vzh" firstAttribute="leading" secondItem="cne-lw-gNa" secondAttribute="trailing" id="eeS-WN-Pbr"/>
+                <constraint firstAttribute="bottom" secondItem="cne-lw-gNa" secondAttribute="bottom" constant="8" id="mUE-Lt-1Tw"/>
+                <constraint firstItem="9Eq-xz-eeU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="nWU-RA-Gyq"/>
+                <constraint firstItem="9Eq-xz-eeU" firstAttribute="leading" secondItem="rHv-NY-vXe" secondAttribute="trailing" constant="8" symbolic="YES" id="oyC-Ek-I5l"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="lblPostId" destination="rHv-NY-vXe" id="Iiz-sz-BWv"/>
+                <outlet property="lblPostTitle" destination="9Eq-xz-eeU" id="G2E-hj-4VG"/>
+                <outlet property="lblUserId" destination="nez-X8-vzh" id="5LA-sl-7KT"/>
+                <outlet property="lblUserIdTitle" destination="cne-lw-gNa" id="1k9-Pj-B3k"/>
+            </connections>
+            <point key="canvasLocation" x="107.2" y="-103.89805097451276"/>
+        </view>
+    </objects>
+</document>
